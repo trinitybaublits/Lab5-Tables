@@ -1,12 +1,49 @@
 @charset "UTF-8";
 /* CSS Document */
 
-h1 {
+*{
 	font-family: Helvetica, Arial, sans-serif;
 	
 }
+
 h2 {
-	font-family: Helvetica, Arial,sans-serif;
 	font-weight: 200;
 	margin-top: -20px;
 }
+tr:nth-child(even) {
+	background-color: #EBEBD8;
+	
+}
+th {
+	text-align:left;
+	border-left:1px solid #ACA9A9;
+	
+}
+td {
+	padding:3px 30px;
+	border-left: 1px solid #ACA9A9;
+	border-right:1px solid #ACA9A9;
+	
+}
+table {
+	border-collapse: collapse;
+	border-bottom: 1px solid #ACA9A9;
+}
+
+
+tr:nth-child(2){
+	border-top:1px solid #ACA9A9;
+}
+
+
+.image {
+	border: 0px solid #ACA9A9;
+	vertical-align: bottom;
+}
+span {
+	font-weight:200;
+	font-style:italic;
+	
+}
+
+
