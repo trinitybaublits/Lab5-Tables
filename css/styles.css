@@ -28,9 +28,10 @@ a:hover {
 li{
 	float: left;
 	display: block;
-	width: 200px;
+	padding: 0 4%;
 	line-height: 50px;
 	font-size: 20px;
+	
 	
 }
 
@@ -76,5 +77,38 @@ span {
 	font-style:italic;
 	
 }
+/***CSS for Form underneath***/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

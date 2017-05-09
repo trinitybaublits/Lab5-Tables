@@ -1,0 +1,100 @@
+Last login: Tue May  2 12:11:24 on console
+grc-mexico:~ tbaublit$ cd desktop
+grc-mexico:desktop tbaublit$ cd 338_03_Lab5_Trinitybaublits
+grc-mexico:338_03_Lab5_Trinitybaublits tbaublit$ git init
+Initialized empty Git repository in /Users/tbaublit/Desktop/338_03_Lab5_Trinitybaublits/.git/
+grc-mexico:338_03_Lab5_Trinitybaublits tbaublit$ git add -A
+grc-mexico:338_03_Lab5_Trinitybaublits tbaublit$ git commit -m "Add files"
+[master (root-commit) 5de471a] Add files
+ 8 files changed, 14 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 css/styles.css
+ create mode 100755 images/LimeGreen.jpg
+ create mode 100755 images/black.png
+ create mode 100755 images/green.jpg
+ create mode 100644 images/hydrologo.gif
+ create mode 100755 images/white.jpg
+ create mode 100644 index.html
+grc-mexico:338_03_Lab5_Trinitybaublits tbaublit$ git remote add origin https://github.com/trinitybaublits/Lab5-Tables.git
+grc-mexico:338_03_Lab5_Trinitybaublits tbaublit$ git push -u origin master
+Counting objects: 12, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (12/12), 1.18 MiB | 1.82 MiB/s, done.
+Total 12 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/trinitybaublits/Lab5-Tables.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+grc-mexico:338_03_Lab5_Trinitybaublits tbaublit$ git commit -am "add images"
+[master 563d48e] add images
+ 2 files changed, 74 insertions(+)
+grc-mexico:338_03_Lab5_Trinitybaublits tbaublit$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 1.05 KiB | 0 bytes/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/trinitybaublits/Lab5-Tables.git
+   5de471a..563d48e  master -> master
+grc-mexico:338_03_Lab5_Trinitybaublits tbaublit$ git commit -am "Fixed Table"
+[master 15bc342] Fixed Table
+ 3 files changed, 49 insertions(+), 12 deletions(-)
+grc-mexico:338_03_Lab5_Trinitybaublits tbaublit$ git push
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 986 bytes | 0 bytes/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/trinitybaublits/Lab5-Tables.git
+   563d48e..15bc342  master -> master
+grc-mexico:338_03_Lab5_Trinitybaublits tbaublit$ git commit -am "NavBar added"
+[master 4becf34] NavBar added
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+grc-mexico:338_03_Lab5_Trinitybaublits tbaublit$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 466 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/trinitybaublits/Lab5-Tables.git
+   15bc342..4becf34  master -> master
+grc-mexico:338_03_Lab5_Trinitybaublits tbaublit$ git commit -am "Comments/Final"
+[master 1b2ad00] Comments/Final
+ 2 files changed, 42 insertions(+), 9 deletions(-)
+grc-mexico:338_03_Lab5_Trinitybaublits tbaublit$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 892 bytes | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/trinitybaublits/Lab5-Tables.git
+   4becf34..1b2ad00  master -> master
+grc-mexico:338_03_Lab5_Trinitybaublits tbaublit$ git log
+commit 1b2ad0057ca7e04fe5f40d6b32b75ae56cbcea86
+Author: trinitybaublits <tbaublit@calpoly.edu>
+Date:   Tue May 2 14:35:42 2017 -0700
+
+    Comments/Final
+
+commit 4becf34e8a46acaac0e62b9b703deffda82db32a
+Author: trinitybaublits <tbaublit@calpoly.edu>
+Date:   Tue May 2 14:13:23 2017 -0700
+
+    NavBar added
+
+commit 15bc342d2c9922cfb79beb002390c5b4ee2202e1
+Author: trinitybaublits <tbaublit@calpoly.edu>
+Date:   Tue May 2 14:08:20 2017 -0700
+
+    Fixed Table
+
+commit 563d48e0ea6bce4e73b49a4cf765db6ac72facf0
+Author: trinitybaublits <tbaublit@calpoly.edu>
+Date:   Tue May 2 13:26:19 2017 -0700
+
+    add images
+:
