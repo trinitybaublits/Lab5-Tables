@@ -88,7 +88,8 @@ form img{
 
 
 fieldset{
-	background-color: lightblue;
+	background-color: lightblue;/**fieldset was made light blue to match nav bar**/
+	
 
 }
 h3 {
@@ -96,6 +97,7 @@ h3 {
 	font-weight: 200;
 	margin-bottom: auto;
 	margin-top: auto;
+	/**added font weight and margin to make appearance better**/
 	
 	
 	
