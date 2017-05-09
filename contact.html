@@ -30,9 +30,9 @@
 			Last Name:<input type="text" name="last name"/></p>
 			
 			<p>Gender:</p>
-			<p><input type="radio" name="classification" value="male" />Male
-			<input type="radio" name="classification" value="female" />Female
-			<input type="radio" name="classification" value="other" />Other
+			<p>Male:<input type="radio" name="classification" value="male" />
+			Female:<input type="radio" name="classification" value="female" />
+			Other:<input type="radio" name="classification" value="other" />
 			</p>
 			
 			<p>Address:<input type="text" name="address"/>
@@ -95,7 +95,7 @@
 			
 			Zip:<input type="text" name="zip"/></p></fieldset>
 			
-			<p>Selection of five "favorite" colors:</p>
+			<fieldset><h4>Selection of five "favorite" colors:</h4>
 			<p>
 				<input type="checkbox" name="color" value="green"/>Green
 				<input type="checkbox" name="color" value="blue"/>Blue
@@ -107,10 +107,44 @@
 				<input type="checkbox" name="color" value="orange"/>Orange
 				<input type="checkbox" name="color" value="white"/>White
 			</p>
+			</fieldset>
+			<fieldset>
+				<h4>Credit Card Information (*need to fill out)</h4>
+			<p>*Credit Card type:</p>
+			<p><input type="radio" name="classification" value="card" /><img src="images/american_express.gif" alt="american express">
+			<input type="radio" name="classification" value="card" /><img src="images/mastercard.gif" alt="mastercard" >
+			<input type="radio" name="classification" value="card" /><img src="images/visa.gif" alt="visa"></p>
+				
+			<p>*Credit Card number:</p>
+				<p><input type="text" name="card number"/></p>
+			<p>*Security Code:
+			 <input type="text" name="cvc" size="5"/></p>
+			<p>*Expiration date:</p>
+			<select>
+                    <option value="01">January</option>
+                    <option value="02">February </option>
+                    <option value="03">March</option>
+                    <option value="04">April</option>
+                    <option value="05">May</option>
+                    <option value="06">June</option>
+                    <option value="07">July</option>
+                    <option value="08">August</option>
+                    <option value="09">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+                <select>
+                    <option value="16"> 2016</option>
+                    <option value="17"> 2017</option>
+                    <option value="18"> 2018</option>
+                    <option value="19"> 2019</option>
+                    <option value="20"> 2020</option>
+                    <option value="21"> 2021</option>
+				</select>
 			
-			
-			
-			
+			</fieldset>
+			<input type="submit" value="submit"/>
 		</div>
 			
 		</form>

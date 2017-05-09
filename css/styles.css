@@ -82,9 +82,24 @@ span {
 
 
 
+form img{
+	width: 50px;
+}
 
 
+fieldset{
+	background-color: lightblue;
 
+}
+h3 {
+	font-size: 40px;
+	font-weight: 200;
+	margin-bottom: auto;
+	margin-top: auto;
+	
+	
+	
+}
 
 
 
